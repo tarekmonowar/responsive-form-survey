@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#4C585B;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color:#A5BFCC;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title and Description */
+  #title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #D9DFC6;
+    text-align: center;
+    margin-top:40px;
+  }
+  
+  #description {
+    font-size: 20px;
+   font-style: italic;
+    color: #D9DFC6;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  /* Labels and Inputs */
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top:6px;
+    margin-bottom:6px;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    width:20px;
+    height:20px;
+    margin-right: 10px;
+    margin: 7px;
+    cursor: pointer;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  /* Form Section Headings */
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit Button */
+  button#submit {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    section {
+      padding: 15px;
+    }
+  
+    #title {
+      font-size: 20px;
+    }
+  
+    #description {
+      font-size: 14px;
+    }
+  
+    button#submit {
+      font-size: 14px;
+    }
+  }
+  

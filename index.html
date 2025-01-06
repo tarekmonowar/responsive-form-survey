@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+        <header>
+        <div clasname="header">
+        <h1 id="title">Tarek Monowar Servey Form</h1>
+        <p id="description">This servey form for freecodecamp.org</p>
+        </div>
+        </header>
+                    
+        
+
+      <section>
+            <div>
+            <form id="survey-form">
+
+                
+                <div>
+                <label id="name-label" for="name">Name :</label>
+                <input type="text" id="name" placeholder="Enter Your Name"required ></br>
+                <label id="email-label" for ="email">Email :</label>
+                <input type="email" id="email" placeholder="Enter your email" required></br>
+                <label for="age" id="number-label">Age :<label>
+                <input type="number" id="number" name="age" placeholder='age'min="20" max="50"></br>
+                </div>
+
+
+                <div>
+                <p>Which option best for me?</p>
+                <select id="dropdown" name="dropdown" required>
+                <option disabled selected value>select one option</option>
+                <option value="new-learner"> New Learner</option>
+                <option value="intermediate"> Intermediate</option>
+                <option value="expert"> Expert ! </option>
+                <option value="other"> Other </option>
+                </select>
+                </div>
+
+            <div>
+                <p>Why You Accept my code?</p>
+
+                <label><input type="radio" name="user-recommend" value="well organized" checked>Well-organized</label></br>
+
+                <label><input type="radio" name="user-recommend" value="unique " > Unique  </label> </br>
+
+                <label> <input type="radio" name="user-recommend" value="professional"  > Professional</label>
+            </div>
+
+
+            <div>
+                <p>Why you provide Certificate ?</p>
+                <select id="mostly" name="mostly" required>
+                <option disabled selected value> select one option</option>
+                <option value="Validation"> Validation </option>
+                <option value="Recognition"> Recognition </option>
+                <option value="Professional Growth"> Professional Growth </option>
+                <option value="Compliance"> Compliance </option>
+                </select>
+            </div>
+
+            <div>
+                <p>If I get a Full-Stack Certificate, what benefits will I receive?</p>
+                <label><input type="checkbox" name="prefer" value="Better job opportunities."/> Better job opportunities.</label></br>
+                <label><input type="checkbox" name="prefer" value="Increased salary potential."/> Increased salary potential.</label></br>
+                <label><input type="checkbox" name="prefer" value="Enhanced problem-solving skills."/> Enhanced problem-solving skills.</label></br>
+                <label><input type="checkbox" name="prefer" value="Better career growth prospects."/> Better career growth prospects.</label></br>
+                <label><input type="checkbox" name="prefer" value="Confidence in building complete web applications."/> Confidence in building complete web applications.</label></br>
+                <label><input type="checkbox" name="prefer" value="Recognition as a skilled developer."/> Recognition as a skilled developer.</label></br>
+                <label><input type="checkbox" name="prefer" value="High demand in the tech industry."/> High demand in the tech industry.</label>
+                </div>
+
+
+
+                <div>
+                <p>Any advice for me codecamp.org?</p>
+                <textarea id="advice" placeholder="Enter Your advice here..."></textarea>
+
+                </div>
+
+                <div>
+                <button type="submit" id ="submit"> Submit </button>
+
+                </div>
+
+
+            </div>
+            
+            </section>
+
+</body>
+</html>
